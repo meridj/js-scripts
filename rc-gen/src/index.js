@@ -7,7 +7,7 @@ const checkArgs = () => {
 
 const main = () => {
   if (!checkArgs()) {
-    console.error('USAGE: rc-gen ComponentName [OPTIONS: --class, --func]');
+    console.error('USAGE: rc-gen ComponentName [OPTIONS: --class, --func (default)]');
   } else {
     const componentName = args._.join('');
     const componentType = args.class ? 'class' : 'func';
