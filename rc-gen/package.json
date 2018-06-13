@@ -1,0 +1,17 @@
+{
+  "name": "rc-gen",
+  "version": "0.0.1",
+  "description": "Create a react component",
+  "main": "src/index.js",
+  "author": "meridj",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
