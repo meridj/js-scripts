@@ -13,7 +13,7 @@ const checkArgs = () => {
 };
 
 if (!checkArgs()) {
-  console.error('USAGE: Component [OPTIONS] -s');
+  console.error('USAGE: Component [OPTIONS: --class, --func]');
 } else {
   const componentName = args._.join('');
   const componentType = args.class ? 'class' : 'func';
