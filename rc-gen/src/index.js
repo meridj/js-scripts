@@ -18,4 +18,6 @@ if (!checkArgs()) {
   const componentName = args._.join('');
   const componentType = args.class ? 'class' : 'func';
   const component = new Component(componentName, componentType);
+
+  component.create();
 }
