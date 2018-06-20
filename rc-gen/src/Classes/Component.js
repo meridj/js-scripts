@@ -28,9 +28,12 @@ class Component {
   createComponentStyleFile() {
     const componentStyleFilename = `./${this.componentName}/${
       this.componentName
-    }.css`;
+    }.styl`;
 
-    fs.appendFileSync(componentStyleFilename, "h1 { display: 'flex' }");
+    fs.appendFileSync(
+      componentStyleFilename,
+      `.${this.componentName.toLowerCase()}`
+    );
   }
 
   create() {

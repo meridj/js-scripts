@@ -1,6 +1,6 @@
 {
   "name": "@meridj/react-component-generator",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Create a react component",
   "main": "src/index.js",
   "author": "meridj",

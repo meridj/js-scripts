@@ -9,7 +9,7 @@ import PropTypes from 'prop-types';
 /*
 ** Styles
 */
-import '${componentName}.css';
+import './${componentName}.styl';
 
 class ${componentName} extends React.Component {
 
